@@ -1,46 +1,143 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+        integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
 </head>
-<body>
-    <h1>Curriculum Vitae</h1>
-    <img src="1687842680020.jpg" alt="Carlos Molina" width="150px" height="150px">
-    <h2>Carlos Molina</h2>
-    <h3>Resumen</h3>
-    <p>Profesional apasionado por la tecnología con un enfoque especializado en el ámbito financiero. Tengo sólidos
-        conocimientos en el diseño de soluciones de análisis y visualización utilizando herramientas como Python, SQL, Data Build Tool, Prefect y
-        Power BI. Me he desempeñado activamente en procesos ETL, diseño de modelos de datos y gestión de Data Warehouses. Me caracterizo por
-        ser una persona creativa y analítica, con habilidades destacadas de comunicación. Profundamente convencido de que el éxito radica en el
-        trabajo colaborativo y en equipo.</p>
-    <h3>Datos personales</h3>
-    <ul>
-        <li>Nombre: Carlos Molina</li>
-        <li>Email: cmolinam94@gmail.com</li>
-        <li>Linkedin: <a href="linkedin.com/in/cmolinam">@cmolinam</a></li>
-        <li>Portafolio: <a href="portafolio.html">www.cmolinam.com</a></li>
-        <li>Fecha de nacimiento: 04/03/1994</li>
-    </ul>
-    <h3>Experiencia</h3>
-    <ol>
-        <li>Ingeniero de datos, Patrimore, 2023-actualidad</li>
-        <li>Analista de Datos, Patrimore, 2022-2023</li>
-        <li>Analista Middle Office, Cuprum, 2021-2022</li>
-    </ol>
-    <h3>Formación</h3>
-    <ol>
-        <li>Diplomado en Finance Analytics, Universidad de Chile, 2022</li>
-        <li>Grado en Ingeniería Comercial, Universidad Catolica del Norte, 2021 </li>
-    </ol>
-    
-    <h2>Skills</h2>
-    <ul>
-        <li>Python</li>
-        <li>Ruby</li>
-        <li>SQL</li>
-        <li>Power BI</li>
-        <li>ETL</li>
-        <li>Data Warehousing</li>
-    </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <h3 class="fw-bold">Carlos Molina</h3>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Acerca-de-mi">Acerca de mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Experiencia-Laboral">Experiencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Educación">Educación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portafolio.html">Portafolio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header id="Hero-Section" class="bg-light text-dark text-center py-5 mt-3">
+        <div class="container">
+            <div class="col-12 my-5">
+                <h1 class="fw-bold my-5">
+                    Carlos Molina <br> Ingeniero de datos
+                </h1>
+                
+                <div class="my-5">
+                    <img src="assets/img/foto.jpeg" class="rounded-circle" alt="Carlos Molina" style="object-fit: cover; width: 350px; height: 350px;">
+                    <div class="pt-2">
+                        <a href="mailto:cmolinam94@gmail.com" class="me-3 text-dark"><i class="fa-solid fa-envelope fa-2x p-3 icon-hover"></i></a>
+                        <a href="https://www.linkedin.com/in/cmolinam" class="me-3 text-dark"><i class="fa-brands fa-linkedin fa-2x p-3 icon-hover"></i></a>
+                        <a href="https://github.com/cmolinamun" class="me-3 text-dark"><i class="fa-brands fa-github fa-2x p-3 icon-hover"></i></a>
+                    </div>   
+                </div>     
+                <h3>
+                    Apasionado por la tecnología y ciencia de datos con un enfoque especializado
+                    en el ámbito financiero.
+                </h3>
+            </div>
+        </div>
+    </header>
+    <body>
+        <section id="Acerca-de-mi" class="container text-center my-1 pb-2">
+            <h3 class="display-5 fw-bold my-1">Acerca de mi</h3>
+
+            <p class="my-4 pb-3">
+                Profesional con enfoque en la tecnología, especializado en el ámbito financiero.
+                Poseo sólidos conocimientos en diseño de soluciones de análisis y visualización.
+                Convencido de que el éxito radica en el trabajo colaborativo y en equipo.
+            </p>
+            <div class="row">
+                <div class="col-12 col-md-4 d-flex">
+                    <div class="card rounded-5 bg-light icon-hover">
+                        <i class="fas fa-laptop-code fa-3x my-3"></i>
+                        <h3 class="my-3 fw-bold">Apasionado por la Tecnología</h3>
+                        <p class="mx-3 my-3">
+                            Creo firmemente en el poder transformador de la tecnología
+                            para mejorar nuestras vidas y entornos de trabajo.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex">
+                    <div class="card rounded-3 bg-light icon-hover">
+                        <i class="fas fa-rocket fa-3x my-3"></i>
+                        <h3 class="my-3 fw-bold">Trabajo en Startups</h3>
+                        <p class="mx-3 my-3">
+                            Me siento particularmente atraído por el dinamismo y el espíritu
+                            innovador de las startups.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex">
+                    <div class="card rounded-3 bg-light icon-hover">
+                        <i class="fas fa-chart-line fa-3x my-3"></i>
+                        <h3 class="my-3 fw-bold">Empresas Data-Driven</h3>
+                        <p class="mx-3 my-3">
+                            Estoy convencido de que el futuro pertenece a las empresas orientadas a datos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Educación" class="container text-center my-5">
+            <h2 class="display-5 fw-bold my-5">Educación</h2>
+            <div>
+                <div class="my-3 p-1">
+                    <h3 class="my-3 fw-bold text-start"><i class="fa-solid fa-graduation-cap"></i> Grado en Ingeniería Comercial, Universidad Catolica del Norte</h3>
+                </div>
+                <div class="my-3 p-1">
+                    
+                    <h3 class="my-3 fw-bold text-start"><i class="fa-solid fa-graduation-cap"></i> Diplomado en Finance Analytics, Universidad de Chile</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="Experiencia-Laboral" class="container text-center my-5">
+            <h2 class="display-5 fw-bold my-5">Experiencia Laboral</h2>
+            <div>
+                <div class="my-3">
+                    <h3 class="my-3 fw-bold text-start">Ingeniero de Datos en Patrimore</h3>
+                    <p>
+                        <i class="fa-solid fa-angle-up"></i> Liderazgo en procesos ETL, gestión de Data Warehouses, y desarrollo de modelos de datos. Garantía de fiabilidad y precisión en datos de inversiones.
+                    </p>
+                </div>
+                <div class="my-3">
+                    <h3 class="my-3 fw-bold text-start">Analista de Datos en Patrimore</h3>
+                    <p>
+                        <i class="fa-solid fa-angle-up"></i> Implementación de soluciones de reportería con herramientas como Python, Postgres, y Power BI. Administración de bases de datos y data warehouse.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/81c187a570.js" crossorigin="anonymous"></script>
 </body>
 </html>
