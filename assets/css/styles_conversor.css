@@ -1,0 +1,50 @@
+body {
+    background-color: #1b2632;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 0;
+    height: 100vh;
+}
+
+.container {
+    width: 250px;
+    background-color: #798088;
+    padding: 17px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+label {
+    font-size: 20px;
+}
+
+input, select, button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 90%;
+    border-radius: 3px;
+    border: 1px solid #798088;
+}
+
+button {
+    background-color: #3da6eb;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#resultado {
+    margin: 10px;
+    font-size: large;
+    color: white;
+}
+
+canvas {
+    margin: 10px;
+    width: 100%;
+    max-width: 700px;
+}
